@@ -1,0 +1,332 @@
+/*-----------------------------------------------------------   PAGE 2 PORTFOLIO   ---------------------------------------------------------------------*/
+
+.page2{
+    height: 100vh;
+    display: flex;
+  }
+  
+  .page2 > div{
+    display: flex;
+  }
+
+  .page2 .tabMenu{
+    height: auto;
+  }
+  
+  .visualPortfolio{
+    width: 70%;
+    margin: 0 2.5%;
+    justify-content :center;
+    align-items: center;
+  }
+  
+  .choosePortfolio{
+    width: 25%;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+  }
+  
+  .pickPortfolio{
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .menuPickPortfolio{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  .menuPickPortfolio p{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 0;
+  }
+  .menuPickPortfolioInnerLeft{
+    border-top-left-radius: 10px; 
+  }
+  
+  .menuPickPortfolioInnerRight{
+    border-top-right-radius: 10px; 
+  }
+  
+  .page2 li img{
+    width: 130px;
+  }
+  
+  .imagePortfolioSection{
+    width: 130px;
+    display: flex;
+  }
+  
+  .page2 li .androidPortfolioList{
+    width: 50px;
+  }
+  
+  .page2 li{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-content: space-between;
+  }
+  
+  .page2 h2{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+  
+  .portfolioSection{
+    margin-left: 10px;
+  }
+  
+  .portfolioBox{
+    padding: 3px 15px
+  }
+  
+   #checkedPortfolioWay{
+    color: #8a2be2;
+    background-color: #333;
+  }
+  
+  .contentPortfolioContent{
+    display: none;
+  }
+  
+  #checkedContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 0;
+  }
+  
+  /*listener checked */
+  
+  #checkedPortfolioSection{
+    color: #8a2be2;
+    background-color: #333;
+  }
+  
+  .glide{
+    color: #fff;
+  }
+
+  #caroussel1{
+    overflow: hidden; 
+    position: relative; 
+    height: 90%;
+    margin: 5% 0%;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+  }
+
+  .Caroussel{
+    position: relative;
+    display: flex; 
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms; 
+    transition-duration: 500ms; 
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1); 
+    height: 100%;
+    align-items: center;
+  }
+.items{
+    flex: 0 0 auto; /* Empêche la flexibilité, garde la taille de l'image */
+    height: 100%; /* Ajuste la hauteur comme tu le souhaites */
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    width:100%;
+}
+
+.Caroussel img{
+    max-width: 100%; /* Change de width à max-width pour garder le ratio d'aspect */
+    height: auto;    /* Permet à l'image de garder son ratio d'aspect */
+    max-height: 70%; /* Limite la hauteur maximale */
+    object-fit: contain;
+    display: block; 
+}
+  .buttonDiv{
+    display: flex; 
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    padding: 1rem; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+.button{
+    padding: 0.25rem; 
+    border-radius: 9999px; 
+    color: #1F2937; 
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+}
+
+.button img{
+    width: 30px;
+}
+
+.button:hover{
+    background-color: #fff; 
+}
+
+#messageSent{
+  max-width: 100%;
+  max-height: 150px;
+}
+
+.infoOnProject > div {
+  padding: 2px 10px;
+}
+.infoOnProject > div  > div{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.infoOnProject img{
+  width: 80px;
+  margin: 5px 5px;
+}
+
+.buttonsTodiv{
+  position: absolute; 
+  right: 0; 
+  left: 0; 
+  bottom: 1rem; 
+}
+
+.ButtonsTo{
+  display: flex; 
+  gap: 0.5rem; 
+  justify-content: center; 
+  align-items: center;   
+}
+
+.bullet{
+  border-radius: 9999px; 
+  width: 0.75rem; 
+  height: 0.75rem; 
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms; 
+}
+
+.uncheckedBullet{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.checkedbullet{
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.page2 .warn{
+  padding: 4px;
+  text-align: center;
+  border: 1px solid #ff4545;
+  color: #ff4545;
+  width: 90%;
+  background-color: #ffc2c2;
+  border-radius: 15px;
+}
+
+.page2 .warnForMobile{
+  padding: 0;
+  width: 0%;
+  display: none;
+}
+
+/*------------------------------------------ MODAL ---------------------------------------------------------*/
+
+.modalTotal {
+  display: flex; 
+  position: fixed; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  justify-content: center; 
+  align-items: center; 
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms; 
+  z-index: 2;
+}
+
+.modalVisible{
+  visibility: visible; 
+}
+
+.modalInvisible{
+  visibility: hidden; 
+}
+
+.modalTotalVisible{
+  visibility: visible; 
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modaTotalInvisible{
+  visibility: hidden; 
+}
+.modalBody{
+  padding: 1.5rem; 
+  border-radius: 0.75rem; 
+  background-color: #191A19; 
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms; 
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+  z-index: 3;
+
+}
+
+.modalBodyVisible{
+  --transform-scale-x: 1;
+  --transform-scale-y: 1; 
+  opacity: 1; 
+}
+
+.modalBodyInvisible{
+  --transform-scale-x: 1.25;
+  --transform-scale-y: 1.25; 
+  opacity: 0; 
+}
+
+.buttonCloseModal{
+  position: absolute; 
+  border-radius: 0.5rem; 
+  color: #9CA3AF; 
+  background-color: #191A19; 
+  border: none;
+  cursor: pointer;
+}
+
+.buttonCloseModal:hover{
+  color: #4B5563;
+}
+
+.closeImageModal{
+  width: 15px;
+}
+
+.increaseSize img{
+  width: 30px;
+}
+
+.increaseSize{
+  position: absolute;
+  top: 75px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

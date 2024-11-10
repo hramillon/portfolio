@@ -1,0 +1,148 @@
+@media (max-width: 600px) {
+    .location,.socialMedia, .portFolio,.presentation,#color2,.mailMe,.page2 .visualPortfolio,.PhotoContact{
+        display: none;
+    }
+
+    .choosePortfolio{
+        width: 100%;
+        margin-top: 60px;
+        margin-right: 0;
+    }
+
+    .container{
+        scroll-snap-type: block;
+        height: auto;
+        overflow: clip;
+    }
+
+    .page .longInfoBottom,.page .fastInfoTop{
+        margin-bottom: 0px;
+        height: fit-content;
+    }
+
+    .contentPortfolioContent{
+        overflow: scroll;
+    }
+
+    .tabMenu{
+        position: fixed;
+        height: 40px;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        width: 100%;
+        border-radius: 0;
+    }
+    .longInfoBottom{
+        height: 0;
+        width: 0;
+    }
+
+    .deepInfo{
+        flex-direction: column;
+    }
+
+    .fastInfoTop{
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .page > div {
+        justify-content: flex-start;
+    }
+
+    .figures > div{
+        width: 40%;
+    }
+
+    .fastInfoTop > div{
+        width: 100%;
+    }
+
+    .fastInfoTop h1{
+        font-size: 30px;
+    }
+
+    .title{
+        margin-top: 95px;
+    }
+    .deepInfo > div{
+        width: 100%;
+    }
+
+    .wroteTitle{
+        text-align: center;
+    }
+    .section > .page,.section > .page2,.section > .page3 ,.section > .page4,.section > .page5{
+        margin-top: 0;
+        height: auto;
+    }
+    .section{
+        height: auto;
+    }
+    .choosePortfolio{
+        margin-top: 0;
+    }
+    .page .moreInfo,.page .allDeepInfo,.page .moreInfo{
+        margin-bottom: 0;
+    }
+
+    .technos h2{
+        font-size: 20px;
+    }
+
+    .technos ul{
+        overflow-x: scroll;
+        padding: 0;
+    }
+
+    .CVtop{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .CVtop h2{
+        text-align: center;
+    }
+
+    .page4 ul.rb li{
+        margin-left: 0;
+    }
+
+    .page4 ul.rb li{
+        margin-left: 10px;
+    }
+    .langues ul{
+        flex-direction: column;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .langues ul li{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .contactDiv{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .page2 .warnForMobile{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        padding: 8px 3px;
+    }
+
+    .warnForMobile p{
+        margin: 0;
+    }
+
+    .page2{
+        flex-direction: column;
+    }
+}
+  
