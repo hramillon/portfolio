@@ -1,0 +1,17 @@
+{
+    "fr" : {
+        "mailPlace" : "monsieur.dupont@gmail.com",
+        "objetPlace" : "Objet",
+        "messagePlace" : "Message du mail"
+    },
+    "en" :{
+        "mailPlace" : "john.doe@gmail.com",
+        "objetPlace" : "Subject",
+        "messagePlace" : "Message"
+    },
+    "esp" :{
+        "mailPlace" : "juan.perez@gmail.com",
+        "objetPlace" : "Asunto",
+        "messagePlace" : "Mensaje"
+    }
+}
