@@ -1,0 +1,74 @@
+body.light{
+    background-color: #fff;
+    color: black;
+}
+
+body.light .box{
+    background-color: #f0f2fa;
+    color:black;
+}
+
+body.light .photo{
+    background-color: blueviolet;
+    color:black;
+}
+
+body.light .enlightMode{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+body.light .page5 form input,
+body.light .page5 form textarea{
+    background-color: #fff;
+}
+
+body.light .page5 form input::placeholder,
+body.light .page5 form textarea::placeholder{
+   color: black;
+}
+
+body.light .page4 ul.rb li::before {
+    border: 8px solid rgba(0, 0, 0, 1);
+  }
+
+body.light .page4 ul.rb li:hover::before {
+    border-color: #fff;
+}
+
+body.light .page4 ul.rb li {
+    border-left: 1px dashed black;
+}
+
+body.light .page4{
+    color: black;
+}
+
+body.light #checkedPortfolioWay, 
+body.light #checkedPortfolioSection{
+    background-color: #ddd;
+}
+
+body.light .menuPickPortfolioInnerLeft{
+    border-right: 2px solid #dadada;
+}
+
+body.light .menuPickPortfolio{
+    border-bottom: 2px solid #dadada;
+}
+
+body.light .modalBody{
+    background-color: #fff;
+}
+
+body.light .buttonCloseModal{
+    background-color: #fff;
+}
+
+body.light .bullet{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body.light .uncheckedBullet{
+    background-color: rgba(0, 0, 0, 1);
+}

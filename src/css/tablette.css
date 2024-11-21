@@ -1,0 +1,109 @@
+@media (max-width: 900px) {
+    #color2, .mailMe, .socialMedia,.location,.PhotoContact,.page2 .visualPortfolio{
+        display: none;
+    }
+
+    .deepInfo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo,.allDeepInfo {width: 100% ;}
+    .wroteTitle{font-size: 35px;}
+    .fastInfoTop{height: calc(49vh - 30px);}
+    .title{height: calc(75% - 20px); text-align: center;}
+    .figures{height: 35%;}
+    .photo{height: 80%;}
+    .allDeepInfo{height: calc(20% - 20px); justify-content: flex-end;}
+    .page .allDeepInfo, .page .myName,.page .figures, .page .photo{margin-bottom: 0;}
+    .deepInfo{height: calc(90% - 10px);}
+    .figuresOnMe{justify-content: space-between;}
+    .figures{align-items: flex-end;}
+    .page .figure {
+        height: 80%;
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .longInfoBottom{
+        height: 50vh;
+        flex-direction: column;
+    }
+    .portFolio, .presentation{width: 100%;}
+    #portfolioHomeList, .presentation p{
+        margin: 0;
+    }
+
+    .technos ul{
+        overflow-x: scroll;
+    }
+
+    .page4 ul.rb li{
+        margin-left: 0;
+    }
+
+    .page4 .exp ul.rb{
+        margin-left: 20px;
+    }
+    .langues ul{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .langues ul li{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 8px 15px;
+    }
+
+    .page5 .tabMenu{
+        height: 8%;
+    }
+
+    .page5 .contact{
+        margin-top: 0;
+        height: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactDiv{
+        margin: 0;
+        width: 80%;
+    }
+    .page4 ul.rb li:last-child{
+        padding-bottom: 0;
+    }
+
+    .page2{
+        flex-direction: column-reverse;
+    }
+
+    .page2 > div{
+        width: 100%;
+    }
+    .choosePortfolio{
+        margin-top: 20px;
+        height: 100%;
+    }
+
+    .pickPortfolio{
+        height: 90%;
+        justify-content: center;
+        align-items: center;
+        background-color: #191A19;
+    }
+
+    .contentPortfolio{
+        border-radius: 15px;
+        background-color: #222;
+    }
+
+    .page2 .warnForMobile{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        padding: 8px 3px;
+    }
+
+    .warnForMobile p{
+        margin: 0;
+    }
+}
