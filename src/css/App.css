@@ -30,7 +30,6 @@ body{
 }
 .page{
   display: flex;
-  flex-direction: column;
   height: 100vh;
 }
 
@@ -41,13 +40,27 @@ body{
   padding: 15px;
 }
 
-.fastInfoTop{
-  height: calc(60vh - 30px);
-  margin-top: 20px;
+/* first Page presentation */
+
+.tabMenu{
+  position: absolute;
 }
 
-.longInfoBottom{
-  height: 40vh;
+.infoLeft{
+  width: 70vw;
+}
+
+.infoRight{
+  width: 20vw;
+}
+
+.infoLeft, .figuresOnMe, .infoRight{
+  display: flex;
+  flex-direction: column;
+}
+
+.Topinfo{
+  display: flex;
 }
 
 .page div{

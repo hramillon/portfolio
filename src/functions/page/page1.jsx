@@ -27,43 +27,36 @@ export default function Page1(){
     return(
     <div className='page'>
 
-        <div className='fastInfoTop'>
+        <MenuBar/>
 
-            <div className='figuresOnMe'>
+        <div className='infoLeft'>
 
-                <Title/>
-                <FigureList/>
+            <div className='Topinfo'>
+
+                <div className='figuresOnMe'>
+
+
+                    <Title/>
+                    <FigureList/>
+
+                </div>
+
+                <PhotoPro/>
 
             </div>
 
-            <div className='moreInfo'>
+            <div className='bottomInfo'>
 
-                <MenuBar/>
-
-                <div className='deepInfo'>
-
-                    <PhotoPro/>
-
-                    <div className='allDeepInfo'>
-
-                        <Name/>
-
-                        <Localisation/>
-
-                        <SocialMedia/>
-
-                    </div>
-
-                </div>
+                <Portfolio/>
 
             </div>
 
         </div>
 
+        <div className='infoRight'>
+            <Name/>
 
-        <div className='longInfoBottom'>
-
-            <Portfolio/>
+            <SocialMedia/>
 
             <SummaryPro/>
 
